@@ -1,4 +1,4 @@
-FROM  centos:latest
+FROM  rhel:latest
 LABEL key="SRAVAN"
 RUN   yum install httpd -y
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
