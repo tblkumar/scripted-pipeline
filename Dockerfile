@@ -1,4 +1,4 @@
-FROM  rhel7
+FROM  node:14
 LABEL key="SRAVAN"
 RUN   yum install httpd -y
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
